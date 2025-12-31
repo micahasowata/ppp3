@@ -1,1 +1,5 @@
-int main() { std::cout << "Hello, World!\n"; }
+#include <iostream>
+int main() {
+  cout << "Hello, World!\n";
+  return 0;
+}
