@@ -1,0 +1,5 @@
+- Programming is the art of telling a computer what to do usually in excruciating detail
+- Programming languages are built to compensate for the ambiguity of natural language
+- Always document code with comments so that it would be understandable in future
+- Always make code readable. Or as Zig zen would say "Favor reading code over writing code"
+- It is good idea to tell the reader what the program is supposed to do in the first part of the file
