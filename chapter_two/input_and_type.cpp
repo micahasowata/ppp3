@@ -3,11 +3,13 @@
 #include <string>
 
 int main() {
-  std::cout << "Please enter your first name and age:\n";
+  std::cout << "Please enter your given name and age:\n";
 
-  std::string first_name = "????";
-  int age = -1;
+  std::string given_name = "????";
+  double age = -1;
 
-  std::cin >> first_name >> age;
-  std::cout << "Hello, " << first_name << " (age: " << age << ")\n";
+  // something like: Zuckerberg 41 or Gates 70.25
+  std::cin >> given_name >> age;
+
+  std::cout << given_name << " is " << age * 12 << " months old.\n";
 }
