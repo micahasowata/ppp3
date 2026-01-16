@@ -1,16 +1,17 @@
-// This program should highlight how types determine operators and their
-// operations
+// This program should check for repeated adjacent words
 #include <iostream>
 #include <string>
 
 int main() {
-  std::cout << "Please enter your first and last names\n";
-  std::string first_name;
-  std::string last_name;
+  std::cout << "Write a sentence with some repeated words\n";
+  std::string previous;
+  std::string current;
 
-  std::cin >> first_name >> last_name;
+  while (std::cin >> current) {
+    if (previous == current) {
+      std::cout << "Repeated word: " << current << "\n";
+    }
 
-  std::string full_name = first_name + ' ' + last_name;
-
-  std::cout << "Hello, " << full_name << '\n';
+    previous = current;
+  }
 }
