@@ -1,18 +1,14 @@
-use std::{env, path};
+use clap::Parser;
+use std::path;
 
+#[derive(Parser)]
 struct Cli {
     pattern: String,
     path: path::PathBuf,
 }
 
 fn main() {
-    let pattern = env::args().nth(1).expect("no pattern given");
-    let path = env::args().nth(2).expect("no path given");
-
-    let args = Cli {
-        pattern,
-        path: path::PathBuf::from(path),
-    };
+    let args = Cli::parse();
 
     println!("pattern {:?}, path: {:?}", args.pattern, args.path);
 }
