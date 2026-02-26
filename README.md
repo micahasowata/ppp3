@@ -1,2 +1,3 @@
-# cli-in-rs
- using the resource [Command Line Applications in Rust](https://rust-cli.github.io/book/tutorial/index.html)
+# ppp3
+
+another attempt at working through [Programming -- Principles and Practice Using C++ (3rd Edition) by Bjarne Stroustrup](https://www.stroustrup.com/programming.html)
