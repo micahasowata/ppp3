@@ -1,0 +1,3 @@
+Programming is precisely instructing a computer.
+
+A programming language is a formal language with precise syntax used to instruct a computer unambiguously.
